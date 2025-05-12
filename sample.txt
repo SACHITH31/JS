@@ -1,0 +1,12 @@
+STEPS TO FOR ADDING THE CODE TO THE GITHUB:
+
+Step 1: Create a repository
+Step 2: Copy the link of that particular repository
+Step 3: Now create a folder and open it in vs code and in that folder create a sample file 
+Step 4: Now open terminal (press ctrl+`) enter the below commands,
+       Step 4.1: git init
+       Step 4.2: git clone "here enter the url of that repository which is copied don't use double quotes here"
+       Step 4.3: git add .
+       Step 4.4: git status 
+       Step 4.5: git commit -m "any commit message"
+       Step 4.6: git push
