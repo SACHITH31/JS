@@ -1,0 +1,3 @@
+In javascript there are two types of data types they are:
+i.  Primitive
+ii. Non Primitive 
