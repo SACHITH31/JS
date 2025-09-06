@@ -77,3 +77,13 @@ console.log("sort(): Sort array");
 console.log("reverse(): Reverse array");
 //end of arrays.js
 
+
+//splice syntax: array.splice(start, deleteCount, item1, item2, ...)
+//start: index to start changing the array
+//deleteCount: number of elements to remove from start index
+//item1, item2, ...: elements to add to the array starting from start index
+//if deleteCount is 0, no elements are removed
+//if deleteCount is greater than the number of elements from start index to end of array, all elements from start index to end of array are removed/ example below
+const arr = [1, 2, 3, 4, 5];
+arr.splice(2, 10, 6, 7); //at index 2 remove 10 elements (but only 3 elements exist from index 2 to end) and add 6 and 7
+console.log("After splice with large deleteCount:", arr); //output: [ 1, 2, 6, 7 ]
