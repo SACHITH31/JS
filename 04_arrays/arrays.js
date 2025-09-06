@@ -87,3 +87,10 @@ console.log("reverse(): Reverse array");
 const arr = [1, 2, 3, 4, 5];
 arr.splice(2, 10, 6, 7); //at index 2 remove 10 elements (but only 3 elements exist from index 2 to end) and add 6 and 7
 console.log("After splice with large deleteCount:", arr); //output: [ 1, 2, 6, 7 ]
+
+const anArray = [1, 2, 3, 4, 5];
+console.log(anArray);
+console.log(anArray.join(", ")) //join method converts array to string
+console.log(Array(anArray.join(", "))) //Array() constructor converts string to array but each character becomes an element of the array
+//the difference is that join method joins all elements of the array into a string, separated by ", "
+//Array() constructor converts string to array but each character becomes an element of the array
