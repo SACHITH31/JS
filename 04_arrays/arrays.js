@@ -77,5 +77,3 @@ console.log("sort(): Sort array");
 console.log("reverse(): Reverse array");
 //end of arrays.js
 
-
-
