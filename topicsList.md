@@ -29,3 +29,10 @@
     - typeof operator: 
         - used to know the data type of a variable or value.
 5. debugger: GOTO DEV TOOLS -> SOURCES -> ADD BREAKPOINTS (or) add 'debugger' in .js code only -> REFRESH THE PAGE. -> STACK 
+6. comments in JS:
+    - single line comment: //
+    - multi line comment: /* */
+7. temporal dead zone: 
+    - TDZ is a behavior in JavaScript that occurs when using the let and const keywords to declare variables. 
+    - Variables declared with let and const are not accessible before their declaration in the code, leading to a ReferenceError if accessed prematurely.
+    - This period between the start of the block and the variable declaration is known as the temporal dead zone.
