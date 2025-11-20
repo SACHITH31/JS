@@ -43,3 +43,4 @@ console.log(typeof big)
 console.log((big + BigInt(a))) // 12345678910111112n
 
 //symbol: symbol is used whenever we want the unique values
+//symbol can get converted by using Symbol()
