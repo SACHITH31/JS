@@ -96,4 +96,3 @@ entries.forEach((obj) => {
 // for (let obj in myObj) {
 //     console.log(obj, myObj[obj])
 // }
-

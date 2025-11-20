@@ -1,4 +1,4 @@
-# Welcome To JS😁. 
+# Welcome To JS😁.
 #### Here we will complete total JS in this repo.
 
 ---
@@ -9,4 +9,23 @@
 3. history of JS
     - JS was created by **BRENDAN EICH** in 1995 who worked in Netscape Communications Corporation Compamy.
     - Names are: **MOCHA -> LIVESCRIPT -> JAVASCRIPT**.
+4. data types in JS:
+    1. Primitive data types:
+        - Number
+        - String
+        - Boolean
+        - Null
+        - Undefined
+        - Symbol (ES6)
+        - BigInt (ES11)
+    2. Non-Primitive data types:
+        - Object
+        - Array
+        - Function
+        - Date
+    3. Special data types:
+        - NaN
+        - Infinity
+    - typeof operator: 
+        - used to know the data type of a variable or value.
 
