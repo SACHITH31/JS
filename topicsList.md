@@ -32,7 +32,13 @@
 6. comments in JS:
     - single line comment: //
     - multi line comment: /* */
-7. temporal dead zone: 
-    - TDZ is a behavior in JavaScript that occurs when using the let and const keywords to declare variables. 
-    - Variables declared with let and const are not accessible before their declaration in the code, leading to a ReferenceError if accessed prematurely.
-    - This period between the start of the block and the variable declaration is known as the temporal dead zone.
+7. temporal dead zone: (in simple terms of english)
+    - TDZ is a behavior in JavaScript where variables declared with let and const cannot be accessed before their declaration in the code. 
+    - This period between the start of the block and the actual declaration is known as the temporal dead zone. During this time, if you try to access the variable, it will result in a ReferenceError.
+    Example:
+    ```javascript
+    console.log(x); // ReferenceError: Cannot access 'x' before initialization
+    let x = 10;
+    ```
+    - Here we are trying to access x before its declaration results in a ReferenceError because x is in the temporal dead zone until the line let x = 10; is executed.
+
