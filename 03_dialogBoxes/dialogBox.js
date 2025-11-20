@@ -16,4 +16,4 @@ if (userName !== null) {
     console.log("Hello, " + userName + "!");
 }   else {
     console.log("User canceled the prompt.");
-}   
+}
