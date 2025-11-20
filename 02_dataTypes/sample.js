@@ -33,3 +33,13 @@ console.log(typeof (100 + '')) // string
 
 
 //Boolean: true or false
+
+
+//Bigint: 
+let big = 12345678910111111n
+let a = 1
+console.log(typeof big)
+// console.log(big + 1) //type error: Cannot mix BigInt and other types, use explicit conversions
+console.log((big + BigInt(a))) // 12345678910111112n
+
+//symbol: symbol is used whenever we want the unique values
