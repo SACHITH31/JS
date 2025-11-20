@@ -28,4 +28,4 @@
         - Infinity
     - typeof operator: 
         - used to know the data type of a variable or value.
-
+5. debugger: GOTO DEV TOOLS -> SOURCES -> ADD BREAKPOINTS (or) add 'debugger' in .js code only -> REFRESH THE PAGE. -> STACK 
