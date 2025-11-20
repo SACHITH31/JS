@@ -70,3 +70,4 @@ console.log(Object.keys(anotherPerson).length);
 //console.log(anotherPerson.length); //undefined
 //because object doesn't have length property
 //array has length property
+

@@ -1,1 +1,7 @@
-* we can also call the CONSOLE as REPL (READ, EVAL(calculations), PRINT, LOOP)
+* we can also call the CONSOLE as REPL (READ, EVAL(calculations), PRINT, LOOP) which means
+The console is called REPL because it:
+
+  -> Reads your input
+  -> Evaluates your code
+  -> Prints the result
+  -> Loops forever until you stop i

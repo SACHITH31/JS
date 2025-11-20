@@ -88,6 +88,7 @@ const arr = [1, 2, 3, 4, 5];
 arr.splice(2, 10, 6, 7); //at index 2 remove 10 elements (but only 3 elements exist from index 2 to end) and add 6 and 7
 console.log("After splice with large deleteCount:", arr); //output: [ 1, 2, 6, 7 ]
 
+
 const anArray = [1, 2, 3, 4, 5];
 console.log(anArray);
 console.log(anArray.join(", ")) //join method converts array to string
