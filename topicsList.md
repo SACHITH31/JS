@@ -41,4 +41,7 @@
     let x = 10;
     ```
     - Here we are trying to access x before its declaration results in a ReferenceError because x is in the temporal dead zone until the line let x = 10; is executed.
-
+8. dialg boxes in JS:
+    - alert(): to show the message to the user.
+    - prompt(): to take the input from the user.
+    - confirm(): to get the confirmation from the user.
