@@ -45,3 +45,4 @@
     - alert(): to show the message to the user.
     - prompt(): to take the input from the user.
     - confirm(): to get the confirmation from the user.
+9. strings
